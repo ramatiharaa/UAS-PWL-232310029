@@ -1,0 +1,29 @@
+# Airflow logs
+logs/
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Airflow local config (opsional)
+airflow.cfg
+airflow.db
+webserver_config.py
+
+# Plugin cache (jika ada)
+plugins/__pycache__/

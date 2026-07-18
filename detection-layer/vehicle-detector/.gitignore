@@ -1,0 +1,33 @@
+# Virtual environment
+venv/
+env/
+ENV/
+json-per3-fps/
+json-pure-fps/
+video/
+
+# Model weights (YOLO)
+*.pt
+*.pth
+*.h5
+*.onnx
+*.engine
+
+# Output data
+*.jsonl
+*.json
+traffic_analysis.log
+vehicle_speed_data.jsonl
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+
+# OS generated
+.DS_Store
+Thumbs.db

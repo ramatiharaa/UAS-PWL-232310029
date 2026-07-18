@@ -1,0 +1,27 @@
+# Virtual environment
+venv/
+env/
+.venv/
+
+# JAR files (lebih baik dikelola via --packages)
+jars/
+*.jar
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Spark local files
+*.log
+derby.log
+metastore_db/
+spark-warehouse/
